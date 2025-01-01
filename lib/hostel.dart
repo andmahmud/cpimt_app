@@ -31,14 +31,14 @@ class _HostelState extends State<Hostel> {
     );
 
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.teal,
-        actionsIconTheme: const IconThemeData(color: Colors.white),
-        title: const Text('CPI Hostel'),
-        titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
-        centerTitle: true,
-        iconTheme: const IconThemeData(color: Colors.white),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.teal,
+      //   actionsIconTheme: const IconThemeData(color: Colors.white),
+      //   title: const Text('CPI Hostel'),
+      //   titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
+      //   centerTitle: true,
+      //   iconTheme: const IconThemeData(color: Colors.white),
+      // ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -52,13 +52,17 @@ class _HostelState extends State<Hostel> {
           const Padding(
             padding: EdgeInsets.all(8.0),
             child: Text(
-              'Welcome to CPI Hostel',
+              'Welcome to CPI Hostel \n              Mirpur, Dhaka',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Colors.teal,
               ),
             ),
+          ),
+          // const Divider(),
+          const SizedBox(
+            height: 20,
           ),
           Expanded(
             flex: 4,
