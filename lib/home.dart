@@ -57,7 +57,10 @@ class _MyHomePageState extends State<Home> {
               ),
             ),
           ),
-          const Divider(),
+          // const Divider(),
+          const SizedBox(
+            height: 20,
+          ),
           Expanded(
             flex: 4,
             child: Padding(
@@ -181,6 +184,9 @@ class _MyHomePageState extends State<Home> {
                         ),
                       ),
                     ],
+                  ),
+                  const SizedBox(
+                    height: 30,
                   ),
                 ],
               ),

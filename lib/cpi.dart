@@ -31,14 +31,14 @@ class _CpiPolytechnicState extends State<CpiPolytechnic> {
     );
 
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.teal,
-        actionsIconTheme: const IconThemeData(color: Colors.white),
-        title: const Text('CPI Polytechnic'),
-        titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
-        centerTitle: true,
-        iconTheme: const IconThemeData(color: Colors.white),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.teal,
+      //   actionsIconTheme: const IconThemeData(color: Colors.white),
+      //   title: const Text('CPI Polytechnic'),
+      //   titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
+      //   centerTitle: true,
+      //   iconTheme: const IconThemeData(color: Colors.white),
+      // ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -47,6 +47,17 @@ class _CpiPolytechnicState extends State<CpiPolytechnic> {
             child: Image.asset(
               'assets/images/logo_cpi.png',
               // Make sure the asset path is correct
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(
+              'Welcome to CPI Polytechnic \n              Mirpur, Dhaka',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Colors.teal,
+              ),
             ),
           ),
           Expanded(
