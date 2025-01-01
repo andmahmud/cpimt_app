@@ -1,5 +1,5 @@
-import 'package:cpimt_app/cpi.dart';
-import 'package:cpimt_app/hostel.dart';
+import 'package:cpimt_app/screens/cpi.dart';
+import 'package:cpimt_app/screens/hostel.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
