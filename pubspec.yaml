@@ -49,8 +49,7 @@ flutter_icons:
     web:
       generate: true
       image_path: "path/to/image.png"
-      background_color: "#hexcode"
-      theme_color: "#hexcode"
+     
     windows:
       generate: true
       image_path: "path/to/image.png"
